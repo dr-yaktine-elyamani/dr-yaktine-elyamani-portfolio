@@ -222,3 +222,66 @@ nav a:hover {
         height: 340px;
     }
 }
+/* ===== EXPERTISE CARDS ===== */
+
+.expertise-cards {
+    max-width: 1200px;
+    margin: -45px auto 70px;
+    padding: 0 30px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+
+    position: relative;
+    z-index: 10;
+}
+
+.expertise-card {
+    background: #ffffff;
+    padding: 28px 20px;
+    text-align: center;
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(11, 43, 89, 0.12);
+    border: 1px solid #e7edf5;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.expertise-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(11, 43, 89, 0.18);
+}
+
+.card-icon {
+    font-size: 35px;
+    margin-bottom: 14px;
+}
+
+.expertise-card h3 {
+    color: #0b2b59;
+    font-size: 20px;
+    margin: 0 0 8px;
+}
+
+.expertise-card p {
+    color: #555;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Responsive cards */
+
+@media (max-width: 900px) {
+    .expertise-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .expertise-cards {
+        grid-template-columns: 1fr;
+    }
+}
