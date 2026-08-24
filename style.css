@@ -18,3 +18,20 @@ p {
     font-size: 18px;
     line-height: 1.7;
 }
+nav {
+    background-color: #17324d;
+    padding: 18px 40px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8ecae6;
+}
