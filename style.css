@@ -285,3 +285,28 @@ nav a:hover {
         grid-template-columns: 1fr;
     }
 }
+/* ===== ABOUT SECTION ===== */
+
+#about {
+    background: #ffffff;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #38465a;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    text-align: center;
+    color: #0b2b59;
+    font-size: 34px;
+    margin-bottom: 35px;
+}
