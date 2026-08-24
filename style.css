@@ -378,3 +378,17 @@ nav a:hover {
         grid-template-columns: 1fr;
     }
 }
+.expertise-icon {
+    font-size: 42px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.expertise-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.expertise-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 28px rgba(0, 51, 102, 0.15);
+}
