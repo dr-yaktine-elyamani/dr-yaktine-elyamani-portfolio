@@ -35,3 +35,38 @@ nav a {
 nav a:hover {
     color: #8ecae6;
 }
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: 0 auto 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3b6f8f;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #17324d;
+}
