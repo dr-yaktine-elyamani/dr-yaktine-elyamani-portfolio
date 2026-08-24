@@ -106,3 +106,119 @@ nav a:hover {
 .research-card p {
     margin-bottom: 15px;
 }
+
+/* ===== NEW PROFESSIONAL HERO ===== */
+
+.hero {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 70px 8%;
+    background: linear-gradient(120deg, #ffffff 35%, #eaf4ff 100%);
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 700px;
+}
+
+.hero-text h1 {
+    font-size: 58px;
+    color: #0b2b59;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.hero-text h2 {
+    font-size: 25px;
+    color: #173b6c;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 28px;
+}
+
+.hero-text p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 28px;
+}
+
+.hero-photo {
+    flex: 0 0 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-photo img {
+    width: 390px;
+    height: 470px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(11, 43, 89, 0.22);
+}
+
+.hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 25px 0;
+}
+
+.hero-links a {
+    color: #0b4da2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero-links a:hover {
+    text-decoration: underline;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.secondary-button {
+    background: white;
+    color: #0b4da2;
+    border: 2px solid #0b4da2;
+}
+
+.secondary-button:hover {
+    background: #eef6ff;
+}
+
+/* Mobile */
+@media (max-width: 850px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+    }
+
+    .hero-links,
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-photo {
+        flex-basis: auto;
+    }
+
+    .hero-photo img {
+        width: 280px;
+        height: 340px;
+    }
+}
