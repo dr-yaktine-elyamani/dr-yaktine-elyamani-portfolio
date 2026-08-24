@@ -88,3 +88,21 @@ nav a:hover {
     line-height: 1.8;
     margin-bottom: 20px;
 }
+
+.research-card {
+    background-color: #f5f7fa;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-left: 5px solid #3b6f8f;
+}
+
+.research-card h3 {
+    color: #17324d;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.research-card p {
+    margin-bottom: 15px;
+}
