@@ -310,3 +310,71 @@ nav a:hover {
     font-size: 34px;
     margin-bottom: 35px;
 }
+/* ===== ABOUT PROFESSIONAL LAYOUT ===== */
+
+.about-section {
+    background:
+        linear-gradient(rgba(245, 250, 255, 0.96), rgba(255, 255, 255, 0.98));
+    border-top: 1px solid #e5edf7;
+}
+
+.about-grid {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 55px;
+    align-items: start;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #38465a;
+    margin-bottom: 20px;
+}
+
+.research-interests {
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(11, 43, 89, 0.10);
+}
+
+.research-interests h3 {
+    color: #0b2b59;
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+
+.interest-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 22px;
+    align-items: flex-start;
+}
+
+.interest-icon {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.interest-item strong {
+    display: block;
+    color: #0b2b59;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.interest-item p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #607086;
+}
+
+@media (max-width: 850px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
