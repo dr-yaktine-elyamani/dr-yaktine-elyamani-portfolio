@@ -891,4 +891,21 @@ nav a:hover {
     .projects-section .section-heading h2 {
         font-size: 28px;
     }
+}/* PROJECT TAGS */
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 18px 0;
+}
+
+.project-tags span {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: #f1f4f8;
+    border: 1px solid #d8dee8;
+    font-size: 13px;
+    font-weight: 500;
 }
