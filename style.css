@@ -652,4 +652,119 @@ nav a:hover {
     .publication-content h3 {
         font-size: 17px;
     }
+}/* ================================
+   RESEARCH SECTION
+================================ */
+
+.research-section {
+    padding: 90px 20px;
+    background: #f7f9fc;
+}
+
+.research-section .section-heading {
+    max-width: 760px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.research-section .section-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #4169a1;
+    margin-bottom: 10px;
+}
+
+.research-section .section-heading h2 {
+    font-size: 36px;
+    margin: 0 0 15px;
+    color: #24324a;
+}
+
+.research-section .section-heading p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #5c6678;
+}
+
+.research-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.research-card {
+    background: #ffffff;
+    padding: 32px 28px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(31, 50, 81, 0.10);
+    border: 1px solid #e7ebf2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.research-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 38px rgba(31, 50, 81, 0.16);
+}
+
+.research-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: #eef4fb;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+.research-card h3 {
+    margin: 0 0 14px;
+    font-size: 21px;
+    color: #24324a;
+}
+
+.research-card p {
+    margin: 0 0 20px;
+    line-height: 1.7;
+    color: #5c6678;
+    font-size: 15px;
+}
+
+.research-card span {
+    display: block;
+    padding-top: 15px;
+    border-top: 1px solid #e7ebf2;
+    color: #4169a1;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+    .research-grid {
+        grid-template-columns: 1fr;
+        max-width: 650px;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 700px) {
+    .research-section {
+        padding: 60px 18px;
+    }
+
+    .research-section .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .research-card {
+        padding: 25px 22px;
+    }
 }
