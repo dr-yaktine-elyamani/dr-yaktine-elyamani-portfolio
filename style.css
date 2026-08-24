@@ -392,3 +392,94 @@ nav a:hover {
     transform: translateY(-7px);
     box-shadow: 0 12px 28px rgba(0, 51, 102, 0.15);
 }
+/* =========================
+   PUBLICATIONS
+========================= */
+
+.publications-section {
+    padding: 90px 8%;
+    background: #ffffff;
+}
+
+.publications-list {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    gap: 22px;
+}
+
+.publication-card {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 25px;
+    padding: 28px;
+    background: #f9fbfe;
+    border: 1px solid #e0e9f4;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(20, 50, 90, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.publication-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 35px rgba(20, 50, 90, 0.13);
+}
+
+.publication-year {
+    width: 72px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #173b70;
+    color: white;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.publication-content h3 {
+    color: #142c52;
+    font-size: 20px;
+    line-height: 1.45;
+    margin: 0 0 12px;
+}
+
+.publication-authors {
+    color: #405066;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.publication-journal {
+    color: #647287;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.doi-button {
+    display: inline-block;
+    padding: 9px 15px;
+    border-radius: 8px;
+    background: #edf4ff;
+    color: #174f91;
+    border: 1px solid #cfdef1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.doi-button:hover {
+    background: #173b70;
+    color: #ffffff;
+}
+
+@media (max-width: 700px) {
+    .publication-card {
+        grid-template-columns: 1fr;
+    }
+
+    .publication-year {
+        width: 70px;
+    }
+}
