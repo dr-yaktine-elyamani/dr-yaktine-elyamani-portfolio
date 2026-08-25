@@ -1035,3 +1035,130 @@ nav a:hover {
         font-size: 25px;
     }
 }
+/* =========================
+   PROFESSIONAL CONTACT SECTION
+   ========================= */
+
+.contact-section {
+    padding: 70px 40px;
+}
+
+.contact-card {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #dbe5f0;
+    border-radius: 24px;
+    padding: 45px 55px;
+    box-shadow: 0 18px 45px rgba(11, 43, 89, 0.08);
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 25px;
+}
+
+.contact-icon {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 18px;
+    background: #0b356d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.contact-label {
+    display: inline-block;
+    background: #eaf2ff;
+    color: #0b356d;
+    padding: 7px 16px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+}
+
+.contact-header h2 {
+    margin: 0;
+    color: #082f63;
+    font-size: 32px;
+}
+
+.contact-intro {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #334155;
+    max-width: 900px;
+    margin-bottom: 28px;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.contact-button {
+    display: inline-block;
+    background: #0b356d;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 13px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.25s ease;
+}
+
+.contact-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(11, 43, 89, 0.20);
+}
+
+.contact-button-secondary {
+    background: #eef4fb;
+    color: #0b356d !important;
+    border: 1px solid #cfdeee;
+}
+
+/* Contact section - mobile */
+@media (max-width: 700px) {
+
+    .contact-section {
+        padding: 45px 20px;
+    }
+
+    .contact-card {
+        padding: 28px 22px;
+    }
+
+    .contact-header {
+        align-items: flex-start;
+    }
+
+    .contact-icon {
+        width: 58px;
+        height: 58px;
+        min-width: 58px;
+        font-size: 24px;
+    }
+
+    .contact-header h2 {
+        font-size: 26px;
+    }
+
+    .contact-links {
+        flex-direction: column;
+    }
+
+    .contact-button {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
