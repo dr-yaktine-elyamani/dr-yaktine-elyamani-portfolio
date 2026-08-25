@@ -909,3 +909,129 @@ nav a:hover {
     font-size: 13px;
     font-weight: 500;
 }
+
+/* ==================================================
+   OPEN TO OPPORTUNITIES
+   ================================================== */
+
+.opportunities-section {
+    padding: 70px 8%;
+    background: #f8fafc;
+}
+
+.opportunities-card {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 45px;
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 15px 45px rgba(11, 43, 89, 0.12);
+    border: 1px solid #e6edf5;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.opportunities-icon {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 18px;
+    background: #0b2b59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.opportunities-content {
+    flex: 1;
+}
+
+.availability-badge {
+    display: inline-block;
+    padding: 7px 14px;
+    margin-bottom: 15px;
+    background: #eaf2ff;
+    color: #0b2b59;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.opportunities-content h2 {
+    margin: 0 0 15px;
+    font-size: 32px;
+    color: #0b2b59;
+    line-height: 1.25;
+}
+
+.opportunities-intro {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #475569;
+    margin-bottom: 22px;
+}
+
+.opportunity-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0 25px;
+}
+
+.opportunity-tags span {
+    padding: 9px 15px;
+    background: #f1f5f9;
+    border: 1px solid #dbe4ee;
+    border-radius: 50px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.opportunities-text {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.opportunities-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #0b2b59;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.25s ease;
+}
+
+.opportunities-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(11, 43, 89, 0.20);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .opportunities-section {
+        padding: 45px 20px;
+    }
+
+    .opportunities-card {
+        padding: 28px 22px;
+        flex-direction: column;
+    }
+
+    .opportunities-icon {
+        width: 58px;
+        height: 58px;
+        min-width: 58px;
+        font-size: 26px;
+    }
+
+    .opportunities-content h2 {
+        font-size: 25px;
+    }
+}
